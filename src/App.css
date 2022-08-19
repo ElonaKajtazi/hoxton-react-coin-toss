@@ -25,7 +25,8 @@ button {
   padding: 0.5rem 1rem;
   border-radius: 10px;
   border: none;
-  background-color: #4caf4f73;
+  background-color: #4caf4fd4;
+  color: #fff;
 }
 img {
  width: 150px;
