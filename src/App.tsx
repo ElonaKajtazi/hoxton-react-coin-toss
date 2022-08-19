@@ -38,6 +38,7 @@ function App() {
         </button>
         <button
           onClick={() => {
+            setFace("heads");
             setHeadsCount(0);
             setTailsCount(0);
           }}
