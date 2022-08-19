@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.App {
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+}
+.buttons-container {
+  display: grid;
+  grid-auto-flow: column;
+
+  gap: 1rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #4caf4f73;
+}
+img {
+ width: 150px;
+}
